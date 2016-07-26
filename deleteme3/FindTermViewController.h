@@ -16,15 +16,15 @@
     NSUserDefaults * defaults;
     HistoryViewController * historyController;
 }
-@property (weak, nonatomic) IBOutlet UIButton *buttonToTriggerHistroySegue;
-@property (weak, nonatomic) IBOutlet UIButton *buttonDefine;
+@property (strong, nonnull) IBOutlet UIButton * buttonToTriggerHistroySegue;
+@property (strong, nonnull) IBOutlet UIButton * buttonDefine;
 
 
 
 
-@property (weak, nonatomic) IBOutlet UITextField *inputTextField;
+@property (strong, nonnull) IBOutlet UITextField *inputTextField;
 - (void) flush;
-- (void) setHistoryController:(HistoryViewController * ) controller;
-+ (void) showDefinitionCard:(UIViewController *) view  forTerm: (NSString *) term  doneButtonBlock: (void (^ __nullable) (void)) block;
+- (void) setHistoryController:(HistoryViewController * _Nonnull) controller;
++ (void) showDefinitionCard:(UIViewController * _Nonnull) view  forTerm: (NSString * _Nonnull) term  doneButtonBlock: (void (^ __nullable) (void)) block;
 
 @end

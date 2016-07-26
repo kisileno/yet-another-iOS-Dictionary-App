@@ -19,6 +19,10 @@
 }
 
 - (void) viewDidDisappear: (BOOL) animated {
-    if (disappearBlock) disappearBlock();
+    if (disappearBlock) {
+        [super viewDidDisappear:animated];
+        disappearBlock();
+    }
 }
+
 @end
