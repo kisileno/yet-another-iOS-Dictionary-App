@@ -7,43 +7,57 @@
 //
 
 #import "HistoryViewController.h"
+#import "FindTermViewController.h"
+#import "HistoryModel.h"
 
 @interface HistoryViewController ()
 
-@property NSMutableArray *objects;
+@property NSMutableArray * objects;
 @end
 
 @implementation HistoryViewController
 
-- (void)viewDidLoad {
+
+- (void) viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    
-//    [self.navigationItem setLeftBarButtonItems:[[self.navigationItem leftBarButtonItems] arrayByAddingObject: self.editButtonItem]];
-
     self.navigationItem.rightBarButtonItem = self.editButtonItem;
-//    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-//    self.navigationItem.rightBarButtonItem = addButton;
-//    self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    historyModel = [HistoryModel sharedInstance];
+    for (NSString * item in [historyModel getHistory]) {
+        [self insertIntoTable: item toTop: YES];
+    }
+
 }
 
-- (void)viewWillAppear:(BOOL)animated {
+- (void) viewWillAppear: (BOOL) animated {
     self.clearsSelectionOnViewWillAppear = self.splitViewController.isCollapsed;
-    [super viewWillAppear:animated];
+    [super viewWillAppear: animated];
 }
 
-- (void)didReceiveMemoryWarning {
+- (void) didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
-- (void)insertNewObject:(id)sender {
+- (void) insertNewObject: (NSString *) object {
+    BOOL override = [historyModel addToHistory: object];
+    if (override) {
+        NSUInteger indexOfObjectToDelete = [[self objects] indexOfObject: object];
+        [self deleteFromTable: [NSIndexPath indexPathForRow: indexOfObjectToDelete inSection: 0]];
+    }
+    [self insertIntoTable: object toTop: YES];
+}
+
+- (void) insertIntoTable: (NSString *) object toTop: (BOOL) toTop{
     if (!self.objects) {
         self.objects = [[NSMutableArray alloc] init];
     }
-    [self.objects insertObject:[NSDate date] atIndex:0];
-    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
-    [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+    NSUInteger indexToInsert = 0;
+    if (!toTop) {
+        indexToInsert = [self objects].count;
+    }
+    [self.objects insertObject: object atIndex: indexToInsert];
+    NSIndexPath * indexPath = [NSIndexPath indexPathForRow: indexToInsert inSection: 0];
+    [self.tableView insertRowsAtIndexPaths: @[indexPath] withRowAnimation: UITableViewRowAnimationAutomatic];
+
 }
 
 #pragma mark - Segues
@@ -61,34 +75,47 @@
 
 #pragma mark - Table View
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+- (NSInteger) numberOfSectionsInTableView: (UITableView *) tableView {
     return 1;
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+- (NSInteger) tableView: (UITableView *) tableView numberOfRowsInSection: (NSInteger) section {
     return self.objects.count;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+- (UITableViewCell *) tableView: (UITableView *) tableView cellForRowAtIndexPath: (NSIndexPath *) indexPath {
+    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier: @"Cell" forIndexPath: indexPath];
 
-    NSDate *object = self.objects[indexPath.row];
+    NSDate * object = self.objects[indexPath.row];
     cell.textLabel.text = [object description];
     return cell;
 }
 
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
+- (BOOL) tableView: (UITableView *) tableView canEditRowAtIndexPath: (NSIndexPath *) indexPath {
     return YES;
 }
 
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+- (void) tableView: (UITableView *) tableView commitEditingStyle: (UITableViewCellEditingStyle) editingStyle forRowAtIndexPath: (NSIndexPath *) indexPath {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
-        [self.objects removeObjectAtIndex:indexPath.row];
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+        [self deleteItemWithIndex: indexPath];
     } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
     }
+}
+
+- (void) deleteItemWithIndex: (NSIndexPath *) indexPath {
+    [historyModel deleteFromHistory:[self objects][indexPath.row]];
+    [self deleteFromTable: indexPath];
+}
+
+- (void) deleteFromTable:(NSIndexPath *) indexPath {
+    [self.objects removeObjectAtIndex: indexPath.row];
+    [self.tableView deleteRowsAtIndexPaths: @[indexPath] withRowAnimation: UITableViewRowAnimationFade];
+}
+
+
+- (void) tableView: (UITableView *) tableView didSelectRowAtIndexPath: (NSIndexPath *) indexPath {
+    NSString * word = self.objects[indexPath.row];
+    [FindTermViewController showDefinitionCard: self forTerm: word doneButtonBlock: nil];
 }
 
 @end

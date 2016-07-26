@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4DE559CB1D45B84500103DCA"
-               BuildableName = "deleteme3.app"
-               BlueprintName = "deleteme3"
-               ReferencedContainer = "container:deleteme3.xcodeproj">
+               BuildableName = "Dict.app"
+               BlueprintName = "Dict"
+               ReferencedContainer = "container:Dict.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4DE559CB1D45B84500103DCA"
-            BuildableName = "deleteme3.app"
-            BlueprintName = "deleteme3"
-            ReferencedContainer = "container:deleteme3.xcodeproj">
+            BuildableName = "Dict.app"
+            BlueprintName = "Dict"
+            ReferencedContainer = "container:Dict.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4DE559CB1D45B84500103DCA"
-            BuildableName = "deleteme3.app"
-            BlueprintName = "deleteme3"
-            ReferencedContainer = "container:deleteme3.xcodeproj">
+            BuildableName = "Dict.app"
+            BlueprintName = "Dict"
+            ReferencedContainer = "container:Dict.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4DE559CB1D45B84500103DCA"
-            BuildableName = "deleteme3.app"
-            BlueprintName = "deleteme3"
-            ReferencedContainer = "container:deleteme3.xcodeproj">
+            BuildableName = "Dict.app"
+            BlueprintName = "Dict"
+            ReferencedContainer = "container:Dict.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -8,7 +8,23 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FindTermViewController : UIViewController
+@class HistoryViewController;
+
+@interface FindTermViewController : UIViewController<UITextFieldDelegate, UINavigationControllerDelegate> {
+    NSString * word;
+    BOOL definitionAvailable;
+    NSUserDefaults * defaults;
+    HistoryViewController * historyController;
+}
 @property (weak, nonatomic) IBOutlet UIButton *buttonToTriggerHistroySegue;
+@property (weak, nonatomic) IBOutlet UIButton *buttonDefine;
+
+
+
+
+@property (weak, nonatomic) IBOutlet UITextField *inputTextField;
+- (void) flush;
+- (void) setHistoryController:(HistoryViewController * ) controller;
++ (void) showDefinitionCard:(UIViewController *) view  forTerm: (NSString *) term  doneButtonBlock: (void (^ __nullable) (void)) block;
 
 @end

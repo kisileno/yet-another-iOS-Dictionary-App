@@ -20,7 +20,7 @@
             </objects>
             <point key="canvasLocation" x="852" y="133"/>
         </scene>
-        <!--Find-->
+        <!--Find definition-->
         <scene sceneID="It9-rl-TeS">
             <objects>
                 <viewController id="3ff-wP-K6C" customClass="FindTermViewController" sceneMemberID="viewController">
@@ -32,31 +32,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LKQ-M1-vAh">
-                                <rect key="frame" x="178" y="164" width="245" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="245" id="woQ-Gq-745"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qo0-CE-IEk">
-                                <rect key="frame" x="95" y="89" width="46" height="30"/>
+                                <rect key="frame" x="534" y="72" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="RMx-3f-FxP" kind="show" id="jVU-mE-Sd4"/>
+                                    <segue destination="RMx-3f-FxP" kind="show" id="Oe3-wM-Vz5"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ivq-Bo-KRt">
+                                <rect key="frame" x="229" y="147" width="143" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="143" id="Bo8-re-zmn"/>
+                                    <constraint firstAttribute="height" constant="65" id="WAM-so-fJb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Define"/>
+                                <connections>
+                                    <action selector="defineAction:" destination="3ff-wP-K6C" eventType="touchUpInside" id="JKX-qK-TnG"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LKQ-M1-vAh">
+                                <rect key="frame" x="181" y="109" width="239" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="239" id="9BC-lS-vYR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textFieldEditingDidChanged:" destination="3ff-wP-K6C" eventType="editingChanged" id="3dp-ay-2Wg"/>
+                                    <action selector="textInputValueChanged:" destination="3ff-wP-K6C" eventType="valueChanged" id="SFr-sD-ogs"/>
+                                    <outlet property="delegate" destination="jcM-iL-ec8" id="hkQ-Dj-H2E"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="LKQ-M1-vAh" firstAttribute="centerX" secondItem="jcM-iL-ec8" secondAttribute="centerX" id="ZWQ-fO-24j"/>
-                            <constraint firstItem="LKQ-M1-vAh" firstAttribute="top" secondItem="G22-kv-CXC" secondAttribute="bottom" constant="100" id="gA8-dT-OAE"/>
+                            <constraint firstItem="LKQ-M1-vAh" firstAttribute="centerX" secondItem="jcM-iL-ec8" secondAttribute="centerX" id="7iF-dj-toI"/>
+                            <constraint firstItem="LKQ-M1-vAh" firstAttribute="centerX" secondItem="ivq-Bo-KRt" secondAttribute="centerX" id="Fkl-rD-B5w"/>
+                            <constraint firstItem="ivq-Bo-KRt" firstAttribute="top" secondItem="LKQ-M1-vAh" secondAttribute="bottom" constant="8" symbolic="YES" id="bP2-4b-9RE"/>
+                            <constraint firstItem="LKQ-M1-vAh" firstAttribute="top" secondItem="G22-kv-CXC" secondAttribute="bottom" constant="45" id="tnB-OG-kLx"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Find" id="Loo-Z4-5nL"/>
+                    <navigationItem key="navigationItem" title="Find definition" id="Loo-Z4-5nL"/>
                     <connections>
+                        <outlet property="buttonDefine" destination="ivq-Bo-KRt" id="P0c-Kz-1N0"/>
                         <outlet property="buttonToTriggerHistroySegue" destination="Qo0-CE-IEk" id="pRL-pJ-8qO"/>
+                        <outlet property="inputTextField" destination="LKQ-M1-vAh" id="GSl-T0-K59"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WkZ-HQ-pZx" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -138,6 +159,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="jVU-mE-Sd4"/>
+        <segue reference="Oe3-wM-Vz5"/>
     </inferredMetricsTieBreakers>
 </document>

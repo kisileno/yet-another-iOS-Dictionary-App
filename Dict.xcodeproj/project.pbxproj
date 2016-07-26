@@ -14,10 +14,12 @@
 		4DE559DF1D45B84500103DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE559DE1D45B84500103DCA /* Assets.xcassets */; };
 		4DE559E21D45B84500103DCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE559E01D45B84500103DCA /* LaunchScreen.storyboard */; };
 		4DE559EB1D45C95800103DCA /* FindTermViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE559EA1D45C95800103DCA /* FindTermViewController.m */; };
+		4DE55A141D46D17400103DCA /* UIReferenceLibraryViewControllerWithCallbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE55A131D46D17400103DCA /* UIReferenceLibraryViewControllerWithCallbacks.m */; };
+		4DE55A171D47223C00103DCA /* HistoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE55A161D47223C00103DCA /* HistoryModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4DE559CC1D45B84500103DCA /* deleteme3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deleteme3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE559CC1D45B84500103DCA /* Dict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dict.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE559D01D45B84500103DCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4DE559D21D45B84500103DCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4DE559D31D45B84500103DCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +31,10 @@
 		4DE559E31D45B84500103DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DE559E91D45C95800103DCA /* FindTermViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindTermViewController.h; sourceTree = "<group>"; };
 		4DE559EA1D45C95800103DCA /* FindTermViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindTermViewController.m; sourceTree = "<group>"; };
+		4DE55A121D46D17400103DCA /* UIReferenceLibraryViewControllerWithCallbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIReferenceLibraryViewControllerWithCallbacks.h; sourceTree = "<group>"; };
+		4DE55A131D46D17400103DCA /* UIReferenceLibraryViewControllerWithCallbacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIReferenceLibraryViewControllerWithCallbacks.m; sourceTree = "<group>"; };
+		4DE55A151D47223C00103DCA /* HistoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryModel.h; sourceTree = "<group>"; };
+		4DE55A161D47223C00103DCA /* HistoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,7 @@
 		4DE559CD1D45B84500103DCA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4DE559CC1D45B84500103DCA /* deleteme3.app */,
+				4DE559CC1D45B84500103DCA /* Dict.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +78,10 @@
 				4DE559CF1D45B84500103DCA /* Supporting Files */,
 				4DE559E91D45C95800103DCA /* FindTermViewController.h */,
 				4DE559EA1D45C95800103DCA /* FindTermViewController.m */,
+				4DE55A121D46D17400103DCA /* UIReferenceLibraryViewControllerWithCallbacks.h */,
+				4DE55A131D46D17400103DCA /* UIReferenceLibraryViewControllerWithCallbacks.m */,
+				4DE55A151D47223C00103DCA /* HistoryModel.h */,
+				4DE55A161D47223C00103DCA /* HistoryModel.m */,
 			);
 			path = deleteme3;
 			sourceTree = "<group>";
@@ -87,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4DE559CB1D45B84500103DCA /* deleteme3 */ = {
+		4DE559CB1D45B84500103DCA /* Dict */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DE559E61D45B84500103DCA /* Build configuration list for PBXNativeTarget "deleteme3" */;
+			buildConfigurationList = 4DE559E61D45B84500103DCA /* Build configuration list for PBXNativeTarget "Dict" */;
 			buildPhases = (
 				4DE559C81D45B84500103DCA /* Sources */,
 				4DE559C91D45B84500103DCA /* Frameworks */,
@@ -99,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = deleteme3;
+			name = Dict;
 			productName = deleteme3;
-			productReference = 4DE559CC1D45B84500103DCA /* deleteme3.app */;
+			productReference = 4DE559CC1D45B84500103DCA /* Dict.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4DE559C71D45B84500103DCA /* Build configuration list for PBXProject "deleteme3" */;
+			buildConfigurationList = 4DE559C71D45B84500103DCA /* Build configuration list for PBXProject "Dict" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -132,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4DE559CB1D45B84500103DCA /* deleteme3 */,
+				4DE559CB1D45B84500103DCA /* Dict */,
 			);
 		};
 /* End PBXProject section */
@@ -156,6 +166,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DE559D41D45B84500103DCA /* AppDelegate.m in Sources */,
+				4DE55A141D46D17400103DCA /* UIReferenceLibraryViewControllerWithCallbacks.m in Sources */,
+				4DE55A171D47223C00103DCA /* HistoryModel.m in Sources */,
 				4DE559D71D45B84500103DCA /* HistoryViewController.m in Sources */,
 				4DE559D11D45B84500103DCA /* main.m in Sources */,
 				4DE559EB1D45C95800103DCA /* FindTermViewController.m in Sources */,
@@ -274,8 +286,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = deleteme3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kisileno.deleteme3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = kisileno.Dict;
+				PRODUCT_NAME = Dict;
 			};
 			name = Debug;
 		};
@@ -285,15 +297,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = deleteme3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kisileno.deleteme3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = kisileno.Dict;
+				PRODUCT_NAME = Dict;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4DE559C71D45B84500103DCA /* Build configuration list for PBXProject "deleteme3" */ = {
+		4DE559C71D45B84500103DCA /* Build configuration list for PBXProject "Dict" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4DE559E41D45B84500103DCA /* Debug */,
@@ -302,13 +314,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DE559E61D45B84500103DCA /* Build configuration list for PBXNativeTarget "deleteme3" */ = {
+		4DE559E61D45B84500103DCA /* Build configuration list for PBXNativeTarget "Dict" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4DE559E71D45B84500103DCA /* Debug */,
 				4DE559E81D45B84500103DCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
