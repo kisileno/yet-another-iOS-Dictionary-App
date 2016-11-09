@@ -1,7 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa928f5d-7799-401e-8907-174a8c1ec992" name="Default" comment="" />
+    <list default="true" id="aa928f5d-7799-401e-8907-174a8c1ec992" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/Assets.xcassets/AppIcon.appiconset/Icon-29@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/Assets.xcassets/AppIcon.appiconset/Icon-29@2x@1x-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/Assets.xcassets/AppIcon.appiconset/Icon-29@2x@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/Assets.xcassets/AppIcon.appiconset/Icon-29@3x@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/Assets.xcassets/AppIcon.appiconset/Icon-40@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/Assets.xcassets/AppIcon.appiconset/Icon-40@2x@1x-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/Assets.xcassets/AppIcon.appiconset/Icon-40@2x@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/Assets.xcassets/AppIcon.appiconset/Icon-40@3x@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/Assets.xcassets/AppIcon.appiconset/Icon-60@2x@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/Assets.xcassets/AppIcon.appiconset/Icon-60@3x@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/Assets.xcassets/AppIcon.appiconset/Icon-76@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/Assets.xcassets/AppIcon.appiconset/Icon-76@2x@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/Assets.xcassets/AppIcon.appiconset/Icon-83.5@2x@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Dict.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict.xcodeproj/project.xcworkspace/xcuserdata/oleksandrkisilenko.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict.xcodeproj/xcuserdata/oleksandrkisilenko.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict.xcodeproj/xcuserdata/oleksandrkisilenko.xcuserdatad/xcschemes/Dict.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/AppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/AppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/Assets.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/Base.lproj/LaunchScreen.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/Base.lproj/Main.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/FindTermViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/FindTermViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/HistoryModel.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/HistoryModel.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/HistoryViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/HistoryViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/ImageSearchViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/ImageSearchViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/UIReferenceLibraryViewControllerWithCallbacks.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/UIReferenceLibraryViewControllerWithCallbacks.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dict/main.m" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/AppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/AppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/Assets.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/Assets.xcassets/AppIcon.appiconset/Icon-29@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/Assets.xcassets/AppIcon.appiconset/Icon-29@2x@1x-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/Assets.xcassets/AppIcon.appiconset/Icon-29@2x@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/Assets.xcassets/AppIcon.appiconset/Icon-29@3x@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/Assets.xcassets/AppIcon.appiconset/Icon-40@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/Assets.xcassets/AppIcon.appiconset/Icon-40@2x@1x-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/Assets.xcassets/AppIcon.appiconset/Icon-40@2x@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/Assets.xcassets/AppIcon.appiconset/Icon-40@3x@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/Assets.xcassets/AppIcon.appiconset/Icon-60@2x@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/Assets.xcassets/AppIcon.appiconset/Icon-60@3x@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/Assets.xcassets/AppIcon.appiconset/Icon-76@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/Assets.xcassets/AppIcon.appiconset/Icon-76@2x@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/Assets.xcassets/AppIcon.appiconset/Icon-83.5@2x@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/Base.lproj/LaunchScreen.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/FindTermViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/FindTermViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/HistoryModel.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/HistoryModel.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/HistoryViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/HistoryViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/UIReferenceLibraryViewControllerWithCallbacks.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/UIReferenceLibraryViewControllerWithCallbacks.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deleteme3/main.m" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deleteme3.iml" afterPath="$PROJECT_DIR$/.idea/deleteme3.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/xcode.xml" afterPath="$PROJECT_DIR$/.idea/xcode.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dict.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Dict.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dict.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="$PROJECT_DIR$/Dict.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dict.xcodeproj/xcuserdata/oleksandrkisilenko.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Dict.xcodeproj/xcuserdata/oleksandrkisilenko.xcuserdatad/xcschemes/xcschememanagement.plist" />
+    </list>
     <ignored path="deleteme3.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,38 +82,37 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulatoriPhone_6s_9.3_x86_64_1" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_67126403a64efd46d5326207bbeeebac42158e30" />
   <component name="FavoritesManager">
     <favorites_list name="deleteme3" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="HistoryViewController.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deleteme3/HistoryViewController.h">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="contents.xcworkspacedata" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dict.xcodeproj/project.xcworkspace/contents.xcworkspacedata">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xcschememanagement.plist" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dict.xcodeproj/xcuserdata/oleksandrkisilenko.xcuserdatad/xcschemes/xcschememanagement.plist">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="FindTermViewController.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deleteme3/FindTermViewController.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="73" column="27" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppDelegate.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deleteme3/AppDelegate.h">
+        <entry file="file://$PROJECT_DIR$/Dict/FindTermViewController.m">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -51,11 +121,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppDelegate.m" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/deleteme3/AppDelegate.m">
+      <file leaf-file-name="FindTermViewController.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dict/FindTermViewController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HistoryViewController.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dict/HistoryViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HistoryViewController.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dict/HistoryViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="141" column="66" selection-start-line="141" selection-start-column="66" selection-end-line="141" selection-end-column="66" />
+              <folding>
+                <element signature="e#156#189#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageSearchViewController.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dict/ImageSearchViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageSearchViewController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dict/ImageSearchViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="23" column="131" selection-start-line="23" selection-start-column="131" selection-end-line="23" selection-end-column="131" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UIViewController.h" pinned="false" current-in-tab="false">
+        <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2655">
+              <caret line="177" column="58" selection-start-line="177" selection-start-column="58" selection-end-line="177" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -63,10 +185,23 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/deleteme3/AppDelegate.m" />
+        <option value="$PROJECT_DIR$/Dict.xcodeproj/project.pbxproj" />
+        <option value="$PROJECT_DIR$/Dict.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
+        <option value="$PROJECT_DIR$/Dict.xcodeproj/xcuserdata/oleksandrkisilenko.xcuserdatad/xcschemes/xcschememanagement.plist" />
+        <option value="$PROJECT_DIR$/deleteme3/FindTermViewController.h" />
+        <option value="$PROJECT_DIR$/deleteme3/HistoryViewController.m" />
+        <option value="$PROJECT_DIR$/deleteme3/main.m" />
+        <option value="$PROJECT_DIR$/Dict/HistoryViewController.h" />
+        <option value="$PROJECT_DIR$/Dict/ImageSearchViewController.h" />
+        <option value="$PROJECT_DIR$/Dict/ImageSearchViewController.m" />
+        <option value="$PROJECT_DIR$/Dict/HistoryViewController.m" />
       </list>
     </option>
   </component>
@@ -115,7 +250,7 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="deleteme3" />
+              <option name="myItemId" value="Dict" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -125,11 +260,11 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="deleteme3" />
+              <option name="myItemId" value="Dict" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="deleteme3" />
+              <option name="myItemId" value="Dict" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -140,6 +275,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/deleteme3.xcodeproj" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RunManager" selected="Application.deleteme3">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="deleteme3" TARGET_NAME="deleteme3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="deleteme3" RUN_TARGET_NAME="deleteme3" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -149,19 +285,51 @@
       </EXTENSION>
       <method />
     </configuration>
-    <configuration default="false" name="deleteme3" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="deleteme3" TARGET_NAME="deleteme3" CONFIG_NAME="Debug" SCHEME_NAME="deleteme3" RUN_TARGET_PROJECT_NAME="deleteme3" RUN_TARGET_NAME="deleteme3" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="OCGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Dict" TARGET_NAME="Dict" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="deleteme3" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Dict" TARGET_NAME="Dict" CONFIG_NAME="Debug" SCHEME_NAME="deleteme3" RUN_TARGET_PROJECT_NAME="Dict" RUN_TARGET_NAME="Dict" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
         <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
       </EXTENSION>
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="Dict" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Dict" TARGET_NAME="Dict" CONFIG_NAME="Debug" SCHEME_NAME="Dict" RUN_TARGET_PROJECT_NAME="Dict" RUN_TARGET_NAME="Dict" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.deleteme3" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Dict" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -170,33 +338,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1469423262989</updated>
+      <workItem from="1478670488775" duration="2035000" />
+      <workItem from="1478680050506" duration="286000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="33" width="2540" height="1397" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24970226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24970226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976282" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -219,7 +400,23 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/deleteme3/HistoryViewController.h">
+    <entry file="file://$PROJECT_DIR$/Dict.xcodeproj/project.xcworkspace/contents.xcworkspacedata">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dict.xcodeproj/xcuserdata/oleksandrkisilenko.xcuserdatad/xcschemes/xcschememanagement.plist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dict/FindTermViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -227,15 +424,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deleteme3/FindTermViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="73" column="27" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deleteme3/AppDelegate.h">
+    <entry file="file://$PROJECT_DIR$/Dict/FindTermViewController.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -243,11 +432,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deleteme3/AppDelegate.m">
+    <entry file="file://$PROJECT_DIR$/Dict/HistoryViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dict/HistoryViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#156#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2655">
+          <caret line="177" column="58" selection-start-line="177" selection-start-column="58" selection-end-line="177" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dict.xcodeproj/project.pbxproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dict.xcodeproj/project.xcworkspace/contents.xcworkspacedata">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dict.xcodeproj/xcuserdata/oleksandrkisilenko.xcuserdatad/xcschemes/xcschememanagement.plist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deleteme3/HistoryViewController.h" />
+    <entry file="file://$PROJECT_DIR$/deleteme3/FindTermViewController.m" />
+    <entry file="file://$PROJECT_DIR$/deleteme3/AppDelegate.h" />
+    <entry file="file://$PROJECT_DIR$/deleteme3/AppDelegate.m" />
+    <entry file="file://$PROJECT_DIR$/deleteme3/HistoryViewController.h" />
+    <entry file="file://$PROJECT_DIR$/deleteme3/FindTermViewController.m" />
+    <entry file="file://$PROJECT_DIR$/deleteme3/AppDelegate.h" />
+    <entry file="file://$PROJECT_DIR$/deleteme3/AppDelegate.m" />
+    <entry file="file://$PROJECT_DIR$/Dict.xcodeproj/project.pbxproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="297" column="33" selection-start-line="297" selection-start-column="33" selection-end-line="297" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deleteme3/FindTermViewController.h" />
+    <entry file="file://$PROJECT_DIR$/deleteme3/HistoryViewController.m" />
+    <entry file="file://$PROJECT_DIR$/deleteme3/main.m" />
+    <entry file="file://$PROJECT_DIR$/Dict.xcodeproj/project.xcworkspace/contents.xcworkspacedata">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dict.xcodeproj/xcuserdata/oleksandrkisilenko.xcuserdatad/xcschemes/xcschememanagement.plist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dict/FindTermViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dict/FindTermViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dict/HistoryViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2655">
+          <caret line="177" column="58" selection-start-line="177" selection-start-column="58" selection-end-line="177" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dict/ImageSearchViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="131" selection-start-line="23" selection-start-column="131" selection-end-line="23" selection-end-column="131" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dict/ImageSearchViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dict/HistoryViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="141" column="66" selection-start-line="141" selection-start-column="66" selection-end-line="141" selection-end-column="66" />
+          <folding>
+            <element signature="e#156#189#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

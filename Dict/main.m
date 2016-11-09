@@ -1,6 +1,6 @@
 //
 //  main.m
-//  deleteme3
+//  Dict
 //
 //  Created by Oleksandr Kisilenko on 7/24/16.
 //  Copyright © 2016 Oleksandr Kisilenko. All rights reserved.

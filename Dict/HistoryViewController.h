@@ -8,7 +8,7 @@
 #import <UIKit/UIKit.h>
 #import "HistoryModel.h"
 
-@interface HistoryViewController : UITableViewController {
+@interface HistoryViewController : UITableViewController<UIViewControllerPreviewingDelegate> {
     HistoryModel * historyModel;
 }
 

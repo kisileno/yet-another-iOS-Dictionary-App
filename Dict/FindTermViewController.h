@@ -1,6 +1,6 @@
 //
 //  FindTermViewController.h
-//  deleteme3
+//  Dict
 //
 //  Created by Oleksandr Kisilenko on 7/24/16.
 //  Copyright © 2016 Oleksandr Kisilenko. All rights reserved.
@@ -17,7 +17,7 @@
     HistoryViewController * historyController;
 }
 @property (strong, nonnull) IBOutlet UIButton * buttonToTriggerHistroySegue;
-@property (strong, nonnull) IBOutlet UIButton * buttonDefine;
+//@property (strong, nonnull) IBOutlet UIButton * buttonDefine;
 
 
 

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Dict.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>deleteme3.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -15,7 +20,7 @@
 		<key>4DE559CB1D45B84500103DCA</key>
 		<dict>
 			<key>primary</key>
-			<true/>
+			<true />
 		</dict>
 	</dict>
 </dict>

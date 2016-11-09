@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D555A111DD2F6620060BA31 /* ImageSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D555A101DD2F6620060BA31 /* ImageSearchViewController.m */; };
 		4DE559D11D45B84500103DCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE559D01D45B84500103DCA /* main.m */; };
 		4DE559D41D45B84500103DCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE559D31D45B84500103DCA /* AppDelegate.m */; };
 		4DE559D71D45B84500103DCA /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE559D61D45B84500103DCA /* HistoryViewController.m */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D555A0F1DD2F6620060BA31 /* ImageSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSearchViewController.h; sourceTree = "<group>"; };
+		4D555A101DD2F6620060BA31 /* ImageSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSearchViewController.m; sourceTree = "<group>"; };
 		4DE559CC1D45B84500103DCA /* Dict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dict.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE559D01D45B84500103DCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4DE559D21D45B84500103DCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,7 +54,7 @@
 		4DE559C31D45B84500103DCA = {
 			isa = PBXGroup;
 			children = (
-				4DE559CE1D45B84500103DCA /* deleteme3 */,
+				4DE559CE1D45B84500103DCA /* Dict */,
 				4DE559CD1D45B84500103DCA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,7 +67,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4DE559CE1D45B84500103DCA /* deleteme3 */ = {
+		4DE559CE1D45B84500103DCA /* Dict */ = {
 			isa = PBXGroup;
 			children = (
 				4DE559D21D45B84500103DCA /* AppDelegate.h */,
@@ -82,8 +85,10 @@
 				4DE55A131D46D17400103DCA /* UIReferenceLibraryViewControllerWithCallbacks.m */,
 				4DE55A151D47223C00103DCA /* HistoryModel.h */,
 				4DE55A161D47223C00103DCA /* HistoryModel.m */,
+				4D555A0F1DD2F6620060BA31 /* ImageSearchViewController.h */,
+				4D555A101DD2F6620060BA31 /* ImageSearchViewController.m */,
 			);
-			path = deleteme3;
+			path = Dict;
 			sourceTree = "<group>";
 		};
 		4DE559CF1D45B84500103DCA /* Supporting Files */ = {
@@ -110,7 +115,7 @@
 			dependencies = (
 			);
 			name = Dict;
-			productName = deleteme3;
+			productName = Dict;
 			productReference = 4DE559CC1D45B84500103DCA /* Dict.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -125,7 +130,8 @@
 				TargetAttributes = {
 					4DE559CB1D45B84500103DCA = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 9E5A7HMXXS;
+						DevelopmentTeam = J68K67WT7T;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -167,6 +173,7 @@
 			files = (
 				4DE559D41D45B84500103DCA /* AppDelegate.m in Sources */,
 				4DE55A141D46D17400103DCA /* UIReferenceLibraryViewControllerWithCallbacks.m in Sources */,
+				4D555A111DD2F6620060BA31 /* ImageSearchViewController.m in Sources */,
 				4DE55A171D47223C00103DCA /* HistoryModel.m in Sources */,
 				4DE559D71D45B84500103DCA /* HistoryViewController.m in Sources */,
 				4DE559D11D45B84500103DCA /* main.m in Sources */,
@@ -284,9 +291,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = deleteme3/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = J68K67WT7T;
+				INFOPLIST_FILE = Dict/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kisileno.Dict;
+				PRODUCT_BUNDLE_IDENTIFIER = kisileno.MicroDict;
 				PRODUCT_NAME = Dict;
 			};
 			name = Debug;
@@ -295,9 +305,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = deleteme3/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = J68K67WT7T;
+				INFOPLIST_FILE = Dict/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kisileno.Dict;
+				PRODUCT_BUNDLE_IDENTIFIER = kisileno.MicroDict;
 				PRODUCT_NAME = Dict;
 			};
 			name = Release;

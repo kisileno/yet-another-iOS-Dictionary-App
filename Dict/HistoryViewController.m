@@ -1,6 +1,6 @@
 //
 //  MasterViewController.m
-//  deleteme3
+//  Dict
 //
 //  Created by Oleksandr Kisilenko on 7/24/16.
 //  Copyright © 2016 Oleksandr Kisilenko. All rights reserved.
@@ -9,9 +9,11 @@
 #import "HistoryViewController.h"
 #import "FindTermViewController.h"
 #import "HistoryModel.h"
+#import "ImageSearchViewController.h"
 
 @interface HistoryViewController ()
 
+@property (nonatomic, strong) id previewingContext;
 @property NSMutableArray * objects;
 @end
 
@@ -24,6 +26,9 @@
     historyModel = [HistoryModel sharedInstance];
     for (NSString * item in [historyModel getHistory]) {
         [self insertIntoTable: item toTop: YES];
+    }
+    if ([self isForceTouchAvailable]) {
+        self.previewingContext = [self registerForPreviewingWithDelegate:self sourceView:self.view];
     }
 
 }
@@ -46,7 +51,7 @@
     [self insertIntoTable: object toTop: YES];
 }
 
-- (void) insertIntoTable: (NSString *) object toTop: (BOOL) toTop{
+- (void) insertIntoTable: (NSString *) object toTop: (BOOL) toTop {
     if (!self.objects) {
         self.objects = [[NSMutableArray alloc] init];
     }
@@ -103,11 +108,11 @@
 }
 
 - (void) deleteItemWithIndex: (NSIndexPath *) indexPath {
-    [historyModel deleteFromHistory:[self objects][indexPath.row]];
+    [historyModel deleteFromHistory: [self objects][indexPath.row]];
     [self deleteFromTable: indexPath];
 }
 
-- (void) deleteFromTable:(NSIndexPath *) indexPath {
+- (void) deleteFromTable: (NSIndexPath *) indexPath {
     [self.objects removeObjectAtIndex: indexPath.row];
     [self.tableView deleteRowsAtIndexPaths: @[indexPath] withRowAnimation: UITableViewRowAnimationFade];
 }
@@ -117,5 +122,64 @@
     NSString * word = self.objects[indexPath.row];
     [FindTermViewController showDefinitionCard: self forTerm: word doneButtonBlock: nil];
 }
+
+- (UIViewController *) previewingContext: (id <UIViewControllerPreviewing>) previewingContext viewControllerForLocation: (CGPoint) location {
+    // check if we're not already displaying a preview controller (WebViewController is my preview controller)
+    if ([self.presentedViewController isKindOfClass:[ImageSearchViewController class]]) {
+        return nil;
+    }
+
+    CGPoint cellPostion = [self.tableView convertPoint:location fromView:self.view];
+    NSIndexPath *path = [self.tableView indexPathForRowAtPoint:cellPostion];
+
+    if (path) {
+        UITableViewCell *tableCell = [self.tableView cellForRowAtIndexPath:path];
+
+        // get your UIStoryboard
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+
+        // set the view controller by initializing it form the storyboard
+        ImageSearchViewController *previewController = [storyboard instantiateViewControllerWithIdentifier:@"ImageSearchViewController"];
+
+        // if you want to transport date use your custom "detailItem" function like this:
+        previewController.term = self.objects[path.row];
+
+        previewingContext.sourceRect = [self.view convertRect:tableCell.frame fromView:self.tableView];
+        return previewController;
+    }
+    return nil;
+}
+
+- (void) previewingContext: (id <UIViewControllerPreviewing>) previewingContext commitViewController: (UIViewController *) viewControllerToCommit {
+    // if you want to present the selected view controller as it self us this:
+    // [self presentViewController:viewControllerToCommit animated:YES completion:nil];
+
+    // to render it with a navigation controller (more common) you should use this:
+    [self.navigationController showViewController:viewControllerToCommit sender:nil];
+}
+
+- (BOOL) isForceTouchAvailable {
+    BOOL isForceTouchAvailable = NO;
+    if ([self.traitCollection respondsToSelector: @selector(forceTouchCapability)]) {
+        isForceTouchAvailable = self.traitCollection.forceTouchCapability == UIForceTouchCapabilityAvailable;
+    }
+    return isForceTouchAvailable;
+}
+
+//if user disables 3d touch
+- (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection {
+    [super traitCollectionDidChange:previousTraitCollection];
+    if ([self isForceTouchAvailable]) {
+        if (!self.previewingContext) {
+            self.previewingContext = [self registerForPreviewingWithDelegate:self sourceView:self.view];
+        }
+    } else {
+        if (self.previewingContext) {
+            [self unregisterForPreviewingWithContext:self.previewingContext];
+            self.previewingContext = nil;
+        }
+    }
+}
+
 
 @end

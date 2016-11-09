@@ -142,7 +142,7 @@
 
 - (BOOL) checkNullOrEmpty {
     BOOL notNull = word && ![word isEqualToString: @""];
-    [_buttonDefine setEnabled: notNull];
+//    [_buttonDefine setEnabled: notNull];
     return notNull;
 }
 
@@ -154,19 +154,20 @@
         dispatch_sync(dispatch_get_main_queue(), ^{
             definitionAvailable = _defAvailable;
 //            NSLog(@"Available: %i, for word: '%@'", _defAvailable, word);
-            [_buttonDefine setEnabled: _defAvailable];
+//            [_buttonDefine setEnabled: _defAvailable];
         });
     });
 }
 
 - (IBAction)defineAction: (id) sender {
     [_inputTextField resignFirstResponder];
-    [FindTermViewController showDefinitionCard: self forTerm: word doneButtonBlock: ^{
+    NSString * term = [[NSString alloc] initWithString:word];
+    [FindTermViewController showDefinitionCard: self forTerm: term doneButtonBlock: ^{
         [_inputTextField becomeFirstResponder];
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-            if ([UIReferenceLibraryViewController dictionaryHasDefinitionForTerm: word]) {
+            if ([UIReferenceLibraryViewController dictionaryHasDefinitionForTerm: term]) {
                 dispatch_sync(dispatch_get_main_queue(), ^{
-                    [historyController insertNewObject: word];
+                    [historyController insertNewObject: term];
                 });
 
             }
